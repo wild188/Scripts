@@ -1,0 +1,12 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+/*
+ * This script should move all the contents of a subfolder to the current
+ * directory and delete the subfolder.
+ */
+
+//main method to capture arguments
+int main(char** argv, int argc){
+  printf("Hello world!\n");
+}
