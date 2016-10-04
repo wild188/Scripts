@@ -68,17 +68,6 @@ void copyFile(char *source, char *dest){
     }
 }
 
-/*
-void copyFile(char *source, char *dest){
-    if(source && dest){
-      execl("/bin/cp", "/bin/cp", source, dest, (char *)0);
-    }else{
-      printf("Bad file\n");
-      return;
-    }
-}
-*/
-
 int copydir(char * curPath, char * subdir){
   //TODO
   printf("Copying directory at %s\n", subdir);
